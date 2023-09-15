@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        #mid-nav {
+            background-color: #232F3E;
+        }
+        
+        #hero-section {
+            background-image: url("image/hero_image.jpg");
+            background-size: cover;
+            background-position: 30% 20%;
+            height: 340px;
+        }
+        
+        #shoping-item-row {
+            width: 100% !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- top nav -->
+    <div class="container-fluid  bg-dark text-white p-0 mx-0 position-sticky sticky-top">
+        <div class=" row g-0 align-items-center  justify-content-around w-100">
+            <div class="col col-auto g-1 col-lg-1">
+                <img src="image/amazon_logo.png" alt="logo" width="100px">
+            </div>
+            <div class="col col-1 d-none d-xl-block">
+                <div class="col "> <img src="image/location.png" alt="location" height="30px">
+                    <span>Hello</span><br>
+                </div>
+                <span class="ms-1">Select your city</span>
+            </div>
+            <div class="col col-5  g-0 row row-cols-3 align-items-center border align-self-center rounded-1  d-none d-md-flex offset-sm-2 offset-lg-0">
+                <select name="searchbox" class="col col-3 align-self-stretch rounded-start-1">
+        <option>All Categories</option>
+        <option>Alexa Skills</option>
+        <option>Amazon Devices</option>
+        <option>Amazon Fashion</option>
+        <option>Amazon Pharmacy</option>
+        <option>Appliances</option>
+        <option>Musical Instruments</option>
+        <option>Office Products</option>
+        <option>Pet Supplies</option>
+        <option>Prime Video</option>
+        <option>Shoes &amp; Handbags</option>
+        <option>Software</option>
+        <option>Sports, Fitness &amp; Outdoors</option>
+        <option>Subscribe &amp; Save</option>
+        <option>Tools &amp; Home Improvement</option>
+        <option>Toys &amp; Games</option>
+        <option>Under ₹500</option>
+        <option>Video Games</option>
+        <option>Watches</option>
+    </select>
+                <input type="text" class="col col-8 align-self-stretch " placeholder="Search Amazon.in" class="">
+                <div class="col col-1 text-bg-warning opacity-50  align-self-stretch ">
+                    <img src="image/search.png" alt="search" class="m-2">
+                </div>
+            </div>
+
+            <div class="col col-1 m-0 d-none d-lg-block">
+                <select name="language" class="rounded-2"><option >English</option><option >Hindi</option><option >Sanskrit</option></select>
+            </div>
+            <div class="col col-1 align-self-center d-none d-lg-block">
+                <span>Hello ,Sign in</span><br>
+                <span>Accounts & lists</span>
+            </div>
+            <div class="col col-1 d-none d-lg-block">
+                <span>Returns</span><br>
+                <span>& Orders</span>
+            </div>
+            <div class="col col-auto p-1 col-lg-1 offset-5 offset-sm-2 offset-lg-0">
+                <img src="image/shopping-cart.png" alt="shoping" style="filter:invert(100%);">
+                <span class="m-1">Cart</span>
+            </div>
+        </div>
+        <!-- mid nav -->
+        <div class="row   bg-opacity-10 align-items-center  justify-content-lg-evenly justify-content-md-start g-0 gap-5 flex-nowrap overflow-auto" id="mid-nav">
+            <div class="col col-1">
+                <!-- <img src="image/menu.png" alt="menu" class="m-3">All -->
+                <a href="#" class=" text-white text-decoration-none"><img src="image/menu.png" alt="menu" class="m-3"> </a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Amazon miniTV</a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Sell</a>
+            </div>
+            <div class="col col-1  w-auto">
+                <a class=" text-white text-decoration-none" href="#">Best Seller</a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Today's deal</a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Mobiles</a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">New Releases</a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Customer Services</a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#"><select name="o" id="" style="background-color:  #232F3E; border:none;color: white;">Prime<option value="prime">Prime</option></select></a>
+            </div>
+            <div class="col col-1 w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Electronics</a>
+            </div>
+
+            <div class="col col-1  w-auto ">
+                <a class=" text-white text-decoration-none" href="#">Computers</a>
+            </div>
+
+        </div>
+        <!-- last nav  -->
+        <div class="row bg-dark-subtle bg-opacity-50 align-items-center justify-content-xl-evenly justify-content-lg-start p-2 g-0 gap-5 flex-nowrap overflow-auto" id="last-nav">
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Toys &amp; Games</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Brands</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Bestsellers</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Games</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Puzzels</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Soft Toys</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Dolls &amp; Accessories</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Die-cast &amp; Toy-Vehicles</a></div>
+            <div class="col col-1 w-auto"> <a href="#" class="text-black text-decoration-none">Learning &amp; Education</a></div>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="container-fluid  p-5 align-items-center justify-content-center g-0" id="hero-section" style="position: relative;">
+            <!-- <img src="image/hero_image.jpg" alt="image" class="image-fluid w-75"> -->
+            <div class="row m-5 bg-white align-items-center justify-content-center d-none d-md-flex " style="position: absolute; top:50%; left: 10%;">
+                <p class=" p-3">You are on Amazon.com you can also shop on amazon india for millions of products with fast local delivery
+                    <a href="#" class="text-decoration-none text-primary">Click here to go to amazon.in </a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="container p-0 ">
+            <div class="row row-cols-lg-4 row-cols-md-2 align-items-stretch justify-content-center p-2 ps-4 " id="shoping-item-row">
+
+                <div class=" card p-4 ">
+                    <h5 class="card-header">Clothes</h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box1_image.jpg" alt="box1" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn text-primary">see more</a>
+                    </div>
+                </div>
+                <div class=" card p-4">
+                    <h5 class="card-header">Health &amp; Personal care </h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box2_image.jpg" alt="box2" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn  text-primary ">see more</a>
+                    </div>
+                </div>
+                <div class="card p-4">
+                    <h5 class="card-header">furniture</h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box3_image.jpg" alt="box3" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn   text-primary">see more</a>
+                    </div>
+                </div>
+                <div class=" card p-4">
+                    <h5 class="card-header">Health &amp; Personal care </h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box4_image.jpg" alt="box4" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn  text-primary">see more</a>
+                    </div>
+                </div>
+                <div class=" card p-4">
+                    <h5 class="card-header">Health &amp; Personal care </h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box5_image.jpg" alt="box5" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn  text-primary ">see more</a>
+                    </div>
+                </div>
+                <div class=" card p-4">
+                    <h5 class="card-header">Health &amp; Personal care </h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box6_image.jpg" alt="box6" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn   text-primary">see more</a>
+                    </div>
+                </div>
+                <div class=" card p-4">
+                    <h5 class="card-header">Health &amp; Personal care </h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box7_image.jpg" alt="box7" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn  text-primary ">see more</a>
+                    </div>
+                </div>
+                <div class=" card p-4">
+                    <h5 class="card-header">Health &amp; Personal care </h5>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Clothes</h5> -->
+                        <img src="image/box8_image.jpg" alt="box8" class="card-image-top w-100 h-75">
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                        <a href="#" class="btn text-primary">see more</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container-fluid g-0 m-0 row" style="background-color: #37475a; ">
+            <h3 class="col text-center text-white-50">Back to Top</h3>
+        </div>
+        <div class="container-fluid g-0  justify-content-center align-items-center  text-white  row row-cols-4" style="background-color:#232F3E; ">
+            <ul class=" col m-1   flex-column">
+                <p>Get to Know us</p>
+                <a href="#" class="text-decoration-none text-white d-block">careers</a>
+                <a href="#" class="text-decoration-none text-white d-block">blog</a> <a href="#" class="text-decoration-none text-white d-block">About Amazon</a>
+                <a href="#" class="text-decoration-none text-white d-block">Investor Relations</a> <a href="#" class="text-decoration-none text-white d-block">Amazon Devices</a>
+                <a href="#" class="text-decoration-none text-white d-block">Amazon Science</a>
+            </ul>
+            <ul class=" col m-1 flex-column">
+                <p>Get to Know us</p>
+                <a href="#" class="text-decoration-none text-white d-block">careers</a>
+                <a href="#" class="text-decoration-none text-white d-block">blog</a> <a href="#" class="text-decoration-none text-white d-block">About Amazon</a>
+                <a href="#" class="text-decoration-none text-white d-block">Investor Relations</a> <a href="#" class="text-decoration-none text-white d-block">Amazon Devices</a>
+                <a href="#" class="text-decoration-none text-white d-block">Amazon Science</a>
+            </ul>
+            <ul class=" col m-1 flex-column ">
+                <p>Get to Know us</p>
+                <a href="#" class="text-decoration-none text-white d-block">careers</a>
+                <a href="#" class="text-decoration-none text-white d-block">blog</a> <a href="#" class="text-decoration-none text-white d-block">About Amazon</a>
+                <a href="#" class="text-decoration-none text-white d-block">Investor Relations</a> <a href="#" class="text-decoration-none text-white d-block">Amazon Devices</a>
+                <a href="#" class="text-decoration-none text-white d-block">Amazon Science</a>
+            </ul>
+        </div>
+
+        <div class="container-fluid border-top " style="background-color: #232F3E;">
+            <div class=" col-2 offset-5 "><img src="image/amazon_logo.png" alt="logo" width="70px" class="align-self-center  ">
+            </div>
+        </div>
+        <div class="container-fluid g-0 m-0 border-top bg-dark h-25">
+            <div class="row container-fluid align-items-center justify-content-center text-white-50">
+                <a href="#" class="w-auto text-decoration-none text-white-50 d-inline ">condition of us</a>
+                <a href="#" class="w-auto text-decoration-none text-white-50 d-inline">Privacy Notice</a>
+                <a href="#" class="w-auto text-decoration-none text-white-50 d-inline">your Ads privacy choices</a>
+            </div>
+            <div class="row container-fluid text-white text-center justify-content-center align-items-center">
+                © 1996-2023 , Amazon.com ,Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
